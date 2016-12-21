@@ -20,11 +20,16 @@ public class ClaseDoWhile {
                   
      do{
           Scanner scanner= new Scanner (System.in);
-        System.out.println("Ingrese su nombre");  
+         System.out.println("BIENVENIDO A MIGUELJAVA");
+          System.out.println("Ingrese su nombre");  
         nombre=scanner.nextLine();
-      System.out.println("Eres bienvenido siempre"+nombre);
+      System.out.println("Eres bienvenido siempre"+nombre+"DISFRUTE DE SU ESTADIA");
       
       }while(!(nombre.equals("luis")||nombre.equals("Luis")));
      System.out.println("Me acaban de confirmar que eres bienvenido solo una ves, chau"+nombre);
+        System.out.println("*****GRACIAS POR VENIR*******");
+        System.out.println("******MUY AGRADECIDO POR SU VISITA********");
+     
+     
     }
 }
